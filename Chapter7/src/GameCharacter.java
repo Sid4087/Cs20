@@ -14,7 +14,7 @@ public class GameCharacter
 	//Behaviour: actions the character can do
 	public void attack()
 	{
-		System.out.println(name + "Attacks! Deals 10 damage.");
+		System.out.println(name + "Attacks! Deals 10 damages.");
 	}
 
 	public void takeDamage(int damage)

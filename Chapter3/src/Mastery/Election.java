@@ -74,19 +74,16 @@ public class Election {
         decimal.setMaximumFractionDigits(2);
         
         
-
-    
-
         System.out.println("\nCandidate\tVotes\tPercentage");
         System.out.println("Awbrey\t\t" + totalAwbrey + "\t" + decimal.format(AwbreyPercent) + " %");
         System.out.println("Martinez\t" + totalMartinez + "\t" + decimal.format(MartinezPercent) + " %");
         System.out.println("Total Votes\t" + totalvotes);
 
 
-
-        
     }
 }
+
+
 /*ScreenDump
 Election results for New York
 Awbrey:
