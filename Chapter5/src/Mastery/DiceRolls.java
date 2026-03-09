@@ -27,7 +27,7 @@ public class DiceRolls {
         for (int i = 0; i < 5; i++) 
         {
             // Generate a random number from 1 to 6 for each die
-            int dice1 = rand.nextInt(6); 
+            int dice1 = rand.nextInt(6) + 1; 
             int dice2 = rand.nextInt(6) + 1; 
 
             // Calculate the total of the two dice
