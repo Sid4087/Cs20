@@ -12,7 +12,7 @@ public class GradeBook
 		
 		alex.updateGPA(4.0);
 		
-		System.out.println(alex);//Automatically calss toString()
+		System.out.println(alex);//Automatically class toString()
 		System.out.println(ali);
 		System.out.println(amy);
 		System.out.println(jasmine);
