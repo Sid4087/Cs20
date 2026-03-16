@@ -50,7 +50,7 @@ public class House
             System.out.print(" ");        // Prints a single space without a newline
         }
     }
-    //
+    
     public static void drawBar(int length)
     {
         // Loops from 1 to 'length' to print that many asterisks
