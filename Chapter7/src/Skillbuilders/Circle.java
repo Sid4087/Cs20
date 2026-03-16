@@ -25,4 +25,22 @@ public class Circle
 		else
 			System.out.println("Error: Radius must be positive.");
 	}
+	
+	public double calculateArea()
+	{
+		return Math.PI * Math.pow(radius, 2);
+	}
+	
+	public String toString()
+	{
+		return "Circle[radius = " + radius + ", area =" + calculateArea() + "]";
+	}
 }
+
+
+
+
+
+
+
+
